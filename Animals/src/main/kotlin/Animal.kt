@@ -1,18 +1,18 @@
-class Animaks {
-    val image = ""
-    val food = ""
-    val habitat = ""
+open class Animaks {
+    open val image = ""
+    open val food = ""
+    open val habitat = ""
     var hunger = 10
 
-    fun makeNoise() {
+    open fun makeNoise() {
         println("The animal is making a noise")
     }
 
-    fun eat() {
+    open fun eat() {
         println("The animal is eating")
     }
 
-    fun roam() {
+    open fun roam() {
         println("The animal is roaming")
     }
 
