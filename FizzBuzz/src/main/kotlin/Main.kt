@@ -2,9 +2,11 @@ fun main() {
 }
 
 fun fizzBuzz(numbers: Array<Int>) :String {
- return numbers.map{
+ return numbers.map {
   if (it == 3) {
    "Fizz"
+  } else if (it == 5) {
+   "Buzz"
   } else {
    it
   }
