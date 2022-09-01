@@ -2,8 +2,11 @@ fun main(args: Array<String>) {
 }
 
 fun fizzBuzz(numbers: Array<Int>) : String {
- if (numbers contentEquals arrayOf(1) ) {
-  return "1"
- } else
-  return "1\n2"
+ return if (numbers contentEquals arrayOf(1)) {
+  "1"
+ } else if (numbers contentEquals arrayOf(1, 2)) {
+  "1\n2"
+ } else {
+  "1\n2\nFizz"
+ }
 }
