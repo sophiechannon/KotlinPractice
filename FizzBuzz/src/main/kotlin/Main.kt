@@ -3,7 +3,7 @@ fun main() {
 
 fun fizzBuzz(numbers: Array<Int>) :String {
  return numbers.map {
-  if (it == 3) {
+  if (it % 3 == 0) {
    "Fizz"
   } else if (it == 5) {
    "Buzz"

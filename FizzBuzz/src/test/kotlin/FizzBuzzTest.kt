@@ -9,5 +9,6 @@ internal class FizzBuzzTest {
         assertEquals("1\n2", fizzBuzz(arrayOf(1, 2)))
         assertEquals("1\n2\nFizz", fizzBuzz(arrayOf(1, 2, 3)))
         assertEquals("1\n2\nFizz\n4\nBuzz", fizzBuzz(arrayOf(1, 2, 3, 4, 5)))
+        assertEquals("1\n2\nFizz\n4\nBuzz\nFizz", fizzBuzz(arrayOf(1, 2, 3, 4, 5, 6)))
     }
 }
