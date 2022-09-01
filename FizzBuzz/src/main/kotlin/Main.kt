@@ -1,8 +1,8 @@
 fun main() {
 }
 
-fun fizzBuzz(numbers: Array<Int>) :String {
- return numbers.map {
+fun fizzBuzz(number: Int) : String {
+ return (1..number).map {
   if (it % 15 == 0) {
    "FizzBuzz"
   } else if (it % 3 == 0) {

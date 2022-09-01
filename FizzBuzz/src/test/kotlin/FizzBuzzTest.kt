@@ -5,18 +5,18 @@ internal class FizzBuzzTest {
 
     @Test
     fun testFizzBuzz() {
-        assertEquals("1", fizzBuzz(arrayOf(1)))
-        assertEquals("1\n2", fizzBuzz(arrayOf(1, 2)))
-        assertEquals("1\n2\nFizz", fizzBuzz(arrayOf(1, 2, 3)))
-        assertEquals("1\n2\nFizz\n4\nBuzz", fizzBuzz(arrayOf(1, 2, 3, 4, 5)))
-        assertEquals("1\n2\nFizz\n4\nBuzz\nFizz", fizzBuzz(arrayOf(1, 2, 3, 4, 5, 6)))
+        assertEquals("1", fizzBuzz(1))
+        assertEquals("1\n2", fizzBuzz(2))
+        assertEquals("1\n2\nFizz", fizzBuzz(3))
+        assertEquals("1\n2\nFizz\n4\nBuzz", fizzBuzz(5))
+        assertEquals("1\n2\nFizz\n4\nBuzz\nFizz", fizzBuzz(6))
         assertEquals(
             "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz",
-            fizzBuzz(arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+            fizzBuzz(10)
         )
         assertEquals(
             "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz",
-            fizzBuzz(arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15))
+            fizzBuzz(15)
         )
     }
 }
