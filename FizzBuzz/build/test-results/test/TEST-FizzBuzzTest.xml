@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T16:34:12" hostname="Jophies-MacBook-Pro.local" time="0.016">
+<testsuite name="FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T16:37:42" hostname="Jophies-MacBook-Pro.local" time="0.014">
   <properties/>
-  <testcase name="testFizzBuzz()" classname="FizzBuzzTest" time="0.016"/>
+  <testcase name="testFizzBuzz()" classname="FizzBuzzTest" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
